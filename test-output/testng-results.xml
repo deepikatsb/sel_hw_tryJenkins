@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-15T11:06:40 EDT" name="Default suite" finished-at="2022-07-15T11:06:48 EDT" duration-ms="8747">
+    <groups>
+    </groups>
+    <test started-at="2022-07-15T11:06:40 EDT" name="Default test" finished-at="2022-07-15T11:06:48 EDT" duration-ms="8747">
+      <class name="variousConcepts.LearnTestNG">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:40 EDT" name="readConfig" finished-at="2022-07-15T11:06:40 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:40 EDT" name="init" finished-at="2022-07-15T11:06:42 EDT" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginTest()[pri:1, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:42 EDT" name="loginTest" finished-at="2022-07-15T11:06:43 EDT" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:43 EDT" name="init" finished-at="2022-07-15T11:06:45 EDT" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="addcustomer()[pri:2, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:45 EDT" name="addcustomer" finished-at="2022-07-15T11:06:48 EDT" duration-ms="3306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+      </class> <!-- variousConcepts.LearnTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
