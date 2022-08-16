@@ -114,7 +114,7 @@ public class LearnTestNG {
 		driver.findElement(password_field).sendKeys(password);
 		driver.findElement(signin_field).click();
 
-		Assert.assertEquals("dashboard not available",DashboardHeader, driver.findElement(Dashboard_header_field).getText());
+		Assert.assertEquals(DashboardHeader, driver.findElement(Dashboard_header_field).getText(),"dashboard not available");
 	}
 	@Test(priority=2)
 	public void addcustomer() {

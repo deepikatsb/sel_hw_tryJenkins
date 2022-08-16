@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-15T11:06:40 EDT" name="Default suite" finished-at="2022-07-15T11:06:48 EDT" duration-ms="8747">
+  <suite name="Default suite" duration-ms="10699" started-at="2022-08-16T13:00:39 EDT" finished-at="2022-08-16T13:00:50 EDT">
     <groups>
     </groups>
-    <test started-at="2022-07-15T11:06:40 EDT" name="Default test" finished-at="2022-07-15T11:06:48 EDT" duration-ms="8747">
+    <test name="Default test" duration-ms="10699" started-at="2022-08-16T13:00:39 EDT" finished-at="2022-08-16T13:00:50 EDT">
       <class name="variousConcepts.LearnTestNG">
-        <test-method is-config="true" signature="readConfig()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:40 EDT" name="readConfig" finished-at="2022-07-15T11:06:40 EDT" duration-ms="6" status="PASS">
+        <test-method status="PASS" signature="readConfig()[pri:0, instance:variousConcepts.LearnTestNG@3e57cd70]" name="readConfig" is-config="true" duration-ms="9" started-at="2022-08-16T13:00:39 EDT" finished-at="2022-08-16T13:00:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readConfig -->
-        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:40 EDT" name="init" finished-at="2022-07-15T11:06:42 EDT" duration-ms="2493" status="PASS">
+        <test-method status="PASS" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e57cd70]" name="init" is-config="true" duration-ms="3412" started-at="2022-08-16T13:00:39 EDT" finished-at="2022-08-16T13:00:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="loginTest()[pri:1, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:42 EDT" name="loginTest" finished-at="2022-07-15T11:06:43 EDT" duration-ms="1335" status="PASS">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:variousConcepts.LearnTestNG@3e57cd70]" name="loginTest" duration-ms="1081" started-at="2022-08-16T13:00:43 EDT" finished-at="2022-08-16T13:00:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:43 EDT" name="init" finished-at="2022-07-15T11:06:45 EDT" duration-ms="1570" status="PASS">
+        <test-method status="PASS" signature="init()[pri:0, instance:variousConcepts.LearnTestNG@3e57cd70]" name="init" is-config="true" duration-ms="2226" started-at="2022-08-16T13:00:44 EDT" finished-at="2022-08-16T13:00:46 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="addcustomer()[pri:2, instance:variousConcepts.LearnTestNG@3e84448c]" started-at="2022-07-15T11:06:45 EDT" name="addcustomer" finished-at="2022-07-15T11:06:48 EDT" duration-ms="3306" status="PASS">
+        <test-method status="PASS" signature="addcustomer()[pri:2, instance:variousConcepts.LearnTestNG@3e57cd70]" name="addcustomer" duration-ms="3923" started-at="2022-08-16T13:00:46 EDT" finished-at="2022-08-16T13:00:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcustomer -->
