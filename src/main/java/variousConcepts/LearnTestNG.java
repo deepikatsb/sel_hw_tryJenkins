@@ -6,7 +6,7 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,9 +15,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+
 
 public class LearnTestNG {
 	WebDriver driver;
@@ -121,7 +124,8 @@ public class LearnTestNG {
 			
 		//Another way of performing assertion
 		Boolean fullnameField = driver.findElement(Full_name_Field).isDisplayed();
-		Assert.assertTrue("Add customer page not available ", fullnameField);
+//		Assert.assertTrue("Add customer page not available ", fullnameField);
+		Assert.assertTrue(fullnameField, "true");
 		
 		
 		
